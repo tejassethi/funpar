@@ -1,0 +1,211 @@
+{
+  "intersections": [
+    {
+      "id": 1,
+      "north_to_south": {
+        "traffic_light": "red",
+        "cars": 5,
+        "connects_to": 4
+      },
+      "south_to_north": {
+        "traffic_light": "green",
+        "cars": 3,
+        "connects_to": 0
+      },
+      "east_to_west": {
+        "traffic_light": "green",
+        "cars": 2,
+        "connects_to": 2
+      },
+      "west_to_east": {
+        "traffic_light": "red",
+        "cars": 4,
+        "connects_to": 0
+      }
+    },
+    {
+      "id": 2,
+      "north_to_south": {
+        "traffic_light": "green",
+        "cars": 6,
+        "connects_to": 5
+      },
+      "south_to_north": {
+        "traffic_light": "red",
+        "cars": 1,
+        "connects_to": 0
+      },
+      "east_to_west": {
+        "traffic_light": "green",
+        "cars": 3,
+        "connects_to": 3
+      },
+      "west_to_east": {
+        "traffic_light": "red",
+        "cars": 2,
+        "connects_to": 1
+      }
+    },
+    {
+      "id": 3,
+      "north_to_south": {
+        "traffic_light": "red",
+        "cars": 4,
+        "connects_to": 6
+      },
+      "south_to_north": {
+        "traffic_light": "green",
+        "cars": 5,
+        "connects_to": 0
+      },
+      "east_to_west": {
+        "traffic_light": "red",
+        "cars": 1,
+        "connects_to": 0
+      },
+      "west_to_east": {
+        "traffic_light": "green",
+        "cars": 6,
+        "connects_to": 2
+      }
+    },
+    {
+      "id": 4,
+      "north_to_south": {
+        "traffic_light": "red",
+        "cars": 3,
+        "connects_to": 7
+      },
+      "south_to_north": {
+        "traffic_light": "green",
+        "cars": 4,
+        "connects_to": 1
+      },
+      "east_to_west": {
+        "traffic_light": "green",
+        "cars": 2,
+        "connects_to": 5
+      },
+      "west_to_east": {
+        "traffic_light": "red",
+        "cars": 1,
+        "connects_to": 0
+      }
+    },
+    {
+      "id": 5,
+      "north_to_south": {
+        "traffic_light": "green",
+        "cars": 2,
+        "connects_to": 8
+      },
+      "south_to_north": {
+        "traffic_light": "red",
+        "cars": 5,
+        "connects_to": 2
+      },
+      "east_to_west": {
+        "traffic_light": "green",
+        "cars": 3,
+        "connects_to": 6
+      },
+      "west_to_east": {
+        "traffic_light": "red",
+        "cars": 2,
+        "connects_to": 4
+      }
+    },
+    {
+      "id": 6,
+      "north_to_south": {
+        "traffic_light": "red",
+        "cars": 4,
+        "connects_to": 9
+      },
+      "south_to_north": {
+        "traffic_light": "green",
+        "cars": 6,
+        "connects_to": 3
+      },
+      "east_to_west": {
+        "traffic_light": "red",
+        "cars": 2,
+        "connects_to": 0
+      },
+      "west_to_east": {
+        "traffic_light": "green",
+        "cars": 5,
+        "connects_to": 5
+      }
+    },
+    {
+      "id": 7,
+      "north_to_south": {
+        "traffic_light": "green",
+        "cars": 1,
+        "connects_to": 0
+      },
+      "south_to_north": {
+        "traffic_light": "red",
+        "cars": 3,
+        "connects_to": 4
+      },
+      "east_to_west": {
+        "traffic_light": "green",
+        "cars": 5,
+        "connects_to": 8
+      },
+      "west_to_east": {
+        "traffic_light": "red",
+        "cars": 4,
+        "connects_to": 0
+      }
+    },
+    {
+      "id": 8,
+      "north_to_south": {
+        "traffic_light": "red",
+        "cars": 6,
+        "connects_to": 0
+      },
+      "south_to_north": {
+        "traffic_light": "green",
+        "cars": 2,
+        "connects_to": 5
+      },
+      "east_to_west": {
+        "traffic_light": "green",
+        "cars": 3,
+        "connects_to": 9
+      },
+      "west_to_east": {
+        "traffic_light": "red",
+        "cars": 1,
+        "connects_to": 7
+      }
+    },
+    {
+      "id": 9,
+      "north_to_south": {
+        "traffic_light": "red",
+        "cars": 2,
+        "connects_to": 0
+      },
+      "south_to_north": {
+        "traffic_light": "green",
+        "cars": 4,
+        "connects_to": 6
+      },
+      "east_to_west": {
+        "traffic_light": "red",
+        "cars": 5,
+        "connects_to": 0
+      },
+      "west_to_east": {
+        "traffic_light": "green",
+        "cars": 6,
+        "connects_to": 8
+      }
+    }
+  ]
+}
